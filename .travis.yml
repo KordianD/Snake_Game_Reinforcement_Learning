@@ -17,4 +17,4 @@ install:
   - source activate test-environment
 
 script:
-  - pytest
+  - flake8 .
