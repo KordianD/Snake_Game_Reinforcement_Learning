@@ -19,4 +19,5 @@ install:
 
 script:
   - flake8 .
-  - pytest
+  - pytest -v
+  - py.test --cov src test
